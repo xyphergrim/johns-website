@@ -58,6 +58,7 @@ label {
 
 .portfolio-links {
     color: #222;
+    font-size: 1.5em;
 }
 
 .thumbnail {
@@ -131,6 +132,7 @@ label {
     border-width: 2px;
     border-color: #222;
     background-color: #68A6ED;
+    color: #222;
 }
 
 #home-btn:hover {

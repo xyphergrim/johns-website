@@ -12,7 +12,7 @@ $(document).ready(function(){
     "at work at what is most important with your business by managing your online presence for you. If you have more important things to worry " + 
     "about (marketing, advertising, sales, or promoting you and/or your business) and would rather not handle all the extra dirt that comes " + 
     "with managing a website - that’s choosing a web host that is right for you and your site, working in tandem with the web hoster and their " + 
-    "technologies, and handling all communication between any and all third-parties for the site - then please contact me now.";
+    "technologies, and handling all communication between any and all third-parties for the site - then please contact me now";
     
     $(".dev-thumb").hover(function(){
         $("#dev-label").animate({opacity: 1}, 500);
