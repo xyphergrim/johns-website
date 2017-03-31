@@ -7,7 +7,7 @@ body {
     font-family: "Oswald";
     font-size: 2.0em;
     letter-spacing: 1px;
-    background: #68A6ED;
+    background-color: #68A6ED;
     margin-bottom: 50px;
     color: #222;
 }
@@ -33,7 +33,7 @@ label {
 }
 
 .navbar-inverse .navbar-nav>.active>a {
-    background: #68A6ED;
+    background-color: #68A6ED;
 }
 
 .page-header {
@@ -46,16 +46,15 @@ label {
     width: 100%;
     /*Set the fixed height of the footer here*/
     height: 50px;
-    background: #222;
-    text-align: center;
+    background-color: #222;
     color: white;
 }
 
-.well {
-    background: #222;
-    color: #68A6ED;
-    border: none;
-}
+/*.well {*/
+/*    background-color: #222;*/
+/*    color: #68A6ED;*/
+/*    border: none;*/
+/*}*/
 
 .portfolio-links {
     color: #222;
@@ -78,10 +77,33 @@ label {
 
 .glyphicon {
     font-size: 6em;
+    color: #222;
 }
 
 .col-md-4 {
     text-align: center;
+}
+
+.services-content {
+    margin-top: 100px;
+}
+
+.services-hr {
+    opacity: 0;
+    border-top-color: #222;
+}
+
+.services-p {
+    opacity: 0;
+}
+
+.container .text-muted {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.text-muted-anchor {
+    color: #fff;
 }
 
 #copyright {
@@ -99,6 +121,25 @@ label {
     margin-top: 20px;
     display: inline-block;
 }
+
+#home-btn {
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    font-size: 3em;
+    border-width: 2px;
+    border-color: #222;
+    background-color: #68A6ED;
+}
+
+#home-btn:hover {
+    background-color: #fff;
+    transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+}
+
 
 
 /*======================================================*/
@@ -118,4 +159,18 @@ label {
 
 #h2-3 {
     opacity: 0;
+}
+
+#home-anchor {
+    opacity: 0;
+}
+
+@media (max-width: 767px) {
+    body {
+        margin-bottom: 80px;
+    }
+    
+    .footer {
+        height: 80px;
+    }
 }
