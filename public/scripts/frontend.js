@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
     var webDevStr = "Are you looking for a simple landing page? Perhaps you’d like to get your portfolio of artwork pushed online? Maybe your " + 
-    "business is growing and you would like to implement a full blown web application that your clients, or your team, could utilize to further " +
+    "business is growing and you would like to implement a full-blown web application that your clients, or your team, could utilize to further " +
     "your business goals. My skills encompass almost all modern web technologies today, including but not limited to: HTML5, CSS3, " + 
     "Javascript/jQuery, Express.js and Node.js, MongoDB, and more.";
     var maintenanceStr = "Is your site online, but it’s still living in the ‘90s? Is your site modern, responsive, and interactive, or is it " + 
