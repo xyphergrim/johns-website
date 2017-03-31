@@ -1,0 +1,121 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Oswald";
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    background: #68A6ED;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+h1 {
+    font-size: 6.0em;
+}
+
+h1 small {
+    color: white;
+}
+
+label {
+    opacity: 0;
+}
+
+.navbar-inverse {
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #68A6ED;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background: #68A6ED;
+}
+
+.page-header {
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*Set the fixed height of the footer here*/
+    height: 50px;
+    background: #222;
+    text-align: center;
+    color: white;
+}
+
+.well {
+    background: #222;
+    color: #68A6ED;
+    border: none;
+}
+
+.portfolio-links {
+    color: #222;
+}
+
+.thumbnail {
+    height: 250px;
+    text-align: center;
+    padding-top: 50px;
+    border: 1px solid black;
+    background-color: #68A6ED;
+}
+
+.thumbnail:hover {
+    background-color: #fff;
+    transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+}
+
+.glyphicon {
+    font-size: 6em;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+#copyright {
+    color: #68A6ED;
+    margin-top: 18px;
+}
+
+#contact-link {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#about-contact {
+    color: #222;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
+#home-fade {
+    opacity: 0;
+}
+
+#h2-1 {
+    opacity: 0;
+}
+
+#h2-2 {
+    opacity: 0;
+}
+
+#h2-3 {
+    opacity: 0;
+}
