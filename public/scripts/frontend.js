@@ -14,6 +14,7 @@ $(document).ready(function(){
     "with managing a website - that’s choosing a web host that is right for you and your site, working in tandem with the web hoster and their " + 
     "technologies, and handling all communication between any and all third-parties for the site - then please contact me now";
     
+    // jQuery/animations for WebDev service thumbnail
     $(".dev-thumb").hover(function(){
         $("#dev-label").animate({opacity: 1}, 500);
     }, function(){
@@ -35,6 +36,7 @@ $(document).ready(function(){
         }
     });
     
+    // jQuery/animations for Maintenance service thumbnail
     $(".maint-thumb").hover(function(){
         $("#maint-label").animate({opacity: 1}, 500);
     }, function(){
@@ -56,6 +58,7 @@ $(document).ready(function(){
         }
     });
     
+    // jQuery/animations for Management service thumbnail
     $(".man-thumb").hover(function(){
         $("#man-label").animate({opacity: 1}, 500);
     }, function(){
