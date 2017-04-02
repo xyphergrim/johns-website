@@ -36,6 +36,10 @@ label {
     background-color: #68A6ED;
 }
 
+.navbar-inverse .navbar-brand {
+    color: #68A6ED;
+}
+
 .page-header {
     border-bottom: 1px solid black;
 }
