@@ -54,12 +54,6 @@ label {
     color: white;
 }
 
-/*.well {*/
-/*    background-color: #222;*/
-/*    color: #68A6ED;*/
-/*    border: none;*/
-/*}*/
-
 .portfolio-links {
     color: #222;
     font-size: 1.5em;
@@ -140,6 +134,26 @@ label {
 }
 
 #home-btn:hover {
+    background-color: #fff;
+    transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+}
+
+#portfolio-btn {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 100px;
+    width: 300px;
+    vertical-align: middle;
+    font-size: 3em;
+    border-width: 2px;
+    border-color: #222;
+    background-color: #68A6ED;
+    color: #222;
+}
+
+#portfolio-btn:hover {
     background-color: #fff;
     transition: all 0.8s;
 	-webkit-transition: all 0.8s;
